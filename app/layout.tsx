@@ -13,20 +13,30 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: "Portfolio",
-    template: "%s | Portfolio",
+  title: "Rex Darel Andig — Full Stack Software Engineer",
+  description: "Minimalist and modern portfolio of Rex Darel Andig, Full Stack Engineer specializing in Next.js, Node.js, TypeScript, PostgreSQL, and distributed systems architecture.",
+  keywords: ["Full Stack Developer", "Software Engineer", "Next.js", "React", "TypeScript", "Node.js", "PostgreSQL", "Backend Architect"],
+  authors: [{ name: "Rex Darel Andig" }],
+  openGraph: {
+    title: "Rex Darel Andig — Full Stack Software Engineer",
+    description: "Architecting resilient backend systems & crafting fluid web experiences.",
+    type: "website",
   },
-  description: "Personal portfolio website.",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col bg-[#090a0f] text-zinc-100 selection:bg-emerald-500 selection:text-black">
+        {children}
+      </body>
     </html>
   );
 }
