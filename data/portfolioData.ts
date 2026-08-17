@@ -50,9 +50,7 @@ export const PERSONAL_INFO = {
   resumeUrl: "https://docs.google.com/document/d/1Dz20J5ykdRUX0tEIevNgCBqkODHb9zq1rtxGsOhBtWI/edit?usp=sharing",
   stats: [
     { label: "Years Experience", value: "5+" },
-    { label: "Production APIs Built", value: "30+" },
-    { label: "System Uptime Managed", value: "99.99%" },
-    { label: "Code Coverage", value: "92%" },
+    { label: "In-progress Personal Projects", value: "3+" },
   ]
 };
 
