@@ -8,7 +8,7 @@ export default function Experience() {
   return (
     <section id="experience" className="py-24 relative bg-[#090a0f] border-t border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="mb-16">
           <div className="flex items-center gap-2 text-xs font-mono text-emerald-400 uppercase tracking-widest mb-2">
@@ -34,7 +34,7 @@ export default function Experience() {
 
               {/* Card Container */}
               <div className="glass-card glass-card-hover p-6 rounded-2xl space-y-4">
-                
+
                 {/* Header Information */}
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                   <div>
@@ -57,11 +57,6 @@ export default function Experience() {
                     </span>
                   </div>
                 </div>
-
-                {/* Description */}
-                <p className="text-sm text-zinc-300 leading-relaxed">
-                  {exp.description}
-                </p>
 
                 {/* Highlights */}
                 <div className="space-y-2 pt-2 border-t border-white/5">
