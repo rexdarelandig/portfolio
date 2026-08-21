@@ -120,7 +120,7 @@ export const PROJECTS: Project[] = [
       "Smart Alerts (Low Fuel, Maintenance Due)"
     ],
     githubUrl: "https://github.com",
-    liveUrl: "https://autolog.rexdarel.com"
+    liveUrl: "https://milepup.com"
   },
 ];
 
