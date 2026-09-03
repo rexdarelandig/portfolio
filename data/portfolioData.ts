@@ -100,9 +100,9 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
 export const PROJECTS: Project[] = [
   {
     id: "autolog",
-    title: "Autolog",
+    title: "MilePup",
     subtitle: "Real-time logging and analytics for vehicles",
-    description: "A vehicle management system that tracks vehicle information, maintenance records, and fuel consumption.",
+    description: "A vehicle management system that tracks vehicle information, maintenance records, expenses and automatically tracks mileage if connected to Bluetooth.",
     category: "Full Stack",
     featured: true,
     image: "/images/autolog.webp",
@@ -122,6 +122,30 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com",
     liveUrl: "https://milepup.com"
   },
+  {
+    id: "flocktally",
+    title: "FlockTally (coming soon)",
+    subtitle: "Real-time poultry farming management",
+    description: "A poultry farming management system that tracks flock health, feed consumption, and production with AI-powered disease detection and forecasting.",
+    category: "Full Stack",
+    featured: true,
+    image: "/images/flocktally.webp",
+    tags: ["Flutter", "PostgreSQL", "Vercel", "Supabase", "Resend", "Gemini"],
+    metrics: [
+      { label: "Users", value: "100+" },
+      { label: "Flocks Tracked", value: "100+" },
+      { label: "Data Processed", value: "100GB+" }
+    ],
+    architectureOverview: "Real-time poultry farming management system using Flutter for the frontend, Supabase for database and authentication, and Gemini AI for smart data entry. Built with scalability and offline-first architecture in mind.",
+    keyFeatures: [
+      "Track your flocks",
+      "Manage your flocks",
+      "View your flocks stats",
+      "Track your finances"
+    ],
+    githubUrl: "https://github.com",
+    liveUrl: "https://rexdarel.com"
+  }
 ];
 
 export const ARCHITECTURE_SAMPLES: ArchitectureSample[] = [
