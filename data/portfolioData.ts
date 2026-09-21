@@ -99,6 +99,29 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
 
 export const PROJECTS: Project[] = [
   {
+    id: "floor-planner",
+    title: "Floor Planner",
+    subtitle: "3D floor plan designer for floorplan.ai",
+    description: "A web-based 3D floor plan designer that allows users to create floor plans in real-time.",
+    category: "Full Stack",
+    featured: true,
+    image: "/images/autolog.webp",
+    tags: ["React", "Three.js", "PostgreSQL", "Vercel", "Supabase", "Resend", "Gemini"],
+    metrics: [
+      { label: "Users", value: "100+" },
+      { label: "Vehicles Tracked", value: "100+" },
+      { label: "Data Processed", value: "100GB+" }
+    ],
+    architectureOverview: "Real-time 3D floor plan designer using React for the frontend, Three.js for 3D rendering, and Supabase for database and authentication. Built with scalability and offline-first architecture in mind.",
+    keyFeatures: [
+      "Real-time 3D floor plan design",
+      "Real-time 2D floor plan design",
+      "Automatic 3D model generation from floor plans"
+    ],
+    githubUrl: "https://github.com",
+    liveUrl: "https://floor-planner-mocha.vercel.app/"
+  },
+  {
     id: "autolog",
     title: "MilePup",
     subtitle: "Real-time logging and analytics for vehicles",
