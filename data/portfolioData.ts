@@ -122,6 +122,29 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://floor-planner-mocha.vercel.app/"
   },
   {
+    id: "pov-reel-studio",
+    title: "POV Reel Studio",
+    subtitle: "POV Reel Studio",
+    description: "A web-based POV Reel Studio that allows users to create POV Reels in real-time.",
+    category: "Full Stack",
+    featured: true,
+    image: "/images/pov-reel-studio.webp",
+    tags: ["React", "PostgreSQL", "Vercel", "Supabase", "Gemini"],
+    metrics: [
+      { label: "Users", value: "100+" },
+      { label: "Vehicles Tracked", value: "100+" },
+      { label: "Data Processed", value: "100GB+" }
+    ],
+    architectureOverview: "POV Reel Studio is a web-based platform that allows users to create POV Reels in real-time. It uses React for the frontend, Supabase for database and authentication, and Gemini AI for smart data entry. Built with scalability and offline-first architecture in mind.",
+    keyFeatures: [
+      "AI-Powered Video Generation",
+      "Real-time preview of POV Reels",
+      "Character configuration for consistent results"
+    ],
+    githubUrl: "https://github.com",
+    liveUrl: "https://pov-reel-studio.vercel.app/"
+  },
+  {
     id: "autolog",
     title: "MilePup",
     subtitle: "Real-time logging and analytics for vehicles",
